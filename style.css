@@ -9,106 +9,106 @@ h3{
 ul{
     border: 0.1px solid;
 }
-.Markdown{
+#Markdown{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Italique{
+#Italique{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Barré{
+#Barré{
+    width: 50% auto;   /* == 400px * .5 = 200px */
+    height: 25%;  /* == 160px * .25 = 40px */
+    margin: 5%;   /* == 400px * .05 = 20px */
+    padding: 2%;
+    border: 2px solid;
+} 
+#Titre{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Titre{
+#Paragraphe{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Paragraphe{
+#Citation{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Citation{
+#Liste{ 
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Liste{
+#Code{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Code{
+#IH{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.IH{
+#Tableau{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Tableau{
+#NBP{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.NBP{
+#Signe{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.Signe{
+#BOI{
     width: 50% auto;   /* == 400px * .5 = 200px */
     height: 25%;  /* == 160px * .25 = 40px */
     margin: 5%;   /* == 400px * .05 = 20px */
     padding: 2%;
     border: 2px solid;
 }
-.BOI{
-    width: 50% auto;   /* == 400px * .5 = 200px */
-    height: 25%;  /* == 160px * .25 = 40px */
-    margin: 5%;   /* == 400px * .05 = 20px */
-    padding: 2%;
-    border: 2px solid;
-}
-.Tiret{
+#Tiret{
     list-style-type: '-';
 }
-.Tiret2{
+#Tiret2{
     list-style-type: strings;
 }
-.Tiret3{
+#Tiret3{
     list-style-type: '[ ]';
 }
-.Tiret3Bis{
+#Tiret3Bis{
     list-style-type: '[x]';
 }
