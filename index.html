@@ -16,191 +16,450 @@
     <section>
         <article class="Markdown">
             <h3>A quoi sert Markdown ?</h3>
-            <p>Markdown est un langage de balisage. Les balises ne doivent pas être abstraitres mais proches de leur véritable signification. Le plus simple est d'illustrer notre propos par un exemple : pour mettre en gras un mot avec HTML, on utilise soit le <code>"b"</code> soit la balise <code>"strong"</code></p><br>
+            <p>Markdown est un langage de balisage. Les balises ne doivent pas être abstraitres mais proches de leur
+                véritable signification. Le plus simple est d'illustrer notre propos par un exemple : pour mettre en
+                gras un mot avec HTML, on utilise soit le <code>"b"</code> soit la balise <code>"strong"</code></p><br>
             <h3>En HTML :</h3>
             <p><code>Ce &lt;b&gt;Mot en gras et celui-là &lt;strong&gt; aussi</code>.</p>
             <h3>En LaTeX :</h3>
             <p><code>Ce \textbf{Mot} en gras</code></p>
             <h3>En Markdown :</h3>
-            <p>Ces deux balises se lisent certes assez facilement, mais sont plus difficiles à écrire, particulièrement dans le cadre de la rédaction de longs textes. Markdown simplifie ce processus en mettant tout simplement les éléments gras entre des étoiles.</p>
+            <p>Ces deux balises se lisent certes assez facilement, mais sont plus difficiles à écrire, particulièrement
+                dans le cadre de la rédaction de longs textes. Markdown simplifie ce processus en mettant tout
+                simplement les éléments gras entre des étoiles.</p>
             <h4>Exemple :</h4>
             <p>Ce **mot** en gras.</p><br>
-            <p>Markdown ne cherche pas à se substituer à HTML. Les fonctions qu’il propose sont assez réduites. Pour les concepteurs, le langage Markdown est plutôt un outil complémentaire. Il est d’ailleurs possible d’insérer des éléments HTML dans un document Markdown, ce qui élargit considérablement le spectre de ce langage, plutôt simple à la base. L’objectif du langage Markdown est avant tout de vous simplifier les tâches d’écriture (en particulier sur Internet). Une fois que les documents Markdown sont transformés par l’analyseur syntaxique (Parser en anglais), il en résulte des fichiers HTML susceptibles d’être utilisés avec les différents navigateurs.</p>
+            <p>Markdown ne cherche pas à se substituer à HTML. Les fonctions qu’il propose sont assez réduites. Pour les
+                concepteurs, le langage Markdown est plutôt un outil complémentaire. Il est d’ailleurs possible
+                d’insérer des éléments HTML dans un document Markdown, ce qui élargit considérablement le spectre de ce
+                langage, plutôt simple à la base. L’objectif du langage Markdown est avant tout de vous simplifier les
+                tâches d’écriture (en particulier sur Internet). Une fois que les documents Markdown sont transformés
+                par l’analyseur syntaxique (Parser en anglais), il en résulte des fichiers HTML susceptibles d’être
+                utilisés avec les différents navigateurs.</p>
         </article>
     </section>
 
     <section>
         <h2>Tutoriel Markdown : la bonne syntaxe pour vos documents</h2>
         <p>
-            Markdown étant conçu pour être un langage de balisage simple, la syntaxe Markdown est très intuitive. Pour pouvoir l’utiliser, vous devez cependant connaître les éléments de balisage. Nous avons réuni ci-dessous les principales fonctions.
+            Markdown étant conçu pour être un langage de balisage simple, la syntaxe Markdown est très intuitive. Pour
+            pouvoir l’utiliser, vous devez cependant connaître les éléments de balisage. Nous avons réuni ci-dessous les
+            principales fonctions.
         </p>
 
         <article class="Italique">
             <h3>Gras et Italique</h3>
             <p>
-                Écrire en gras et en italique est particulièrement facile avec Markdown. Il suffit d’utiliser les étoiles, appelées aussi astérisques. Pour écrire en italique, insérez tout simplement une étoile devant et derrière l’expression le mot ou concerné. Pour le gras, insérez deux étoiles avant et après. Pour le gras et l’italique, vous devrez opter pour trois étoiles. Une autre option consiste à utiliser les tirets bas. <br> <br>
+                Écrire en gras et en italique est particulièrement facile avec Markdown. Il suffit d’utiliser les
+                étoiles, appelées aussi astérisques. Pour écrire en italique, insérez tout simplement une étoile devant
+                et derrière l’expression le mot ou concerné. Pour le gras, insérez deux étoiles avant et après. Pour le
+                gras et l’italique, vous devrez opter pour trois étoiles. Une autre option consiste à utiliser les
+                tirets bas. <br> <br>
                 Exemple :
-                <ul>
-                    <li>*Texte en italique*</li>
-                    <li>_Texte en italique</li>
-                    <li>**Texte en gras**</li>
-                    <li>__Texte en gras__</li>
-                    <li>***Texte en italique et en gras***</li>
-                    <li>___Texte en italique et en gras___</li>
-                </ul>
             </p>
+            <ul>
+                <li>*Texte en italique*</li>
+                <li>_Texte en italique</li>
+                <li>**Texte en gras**</li>
+                <li>__Texte en gras__</li>
+                <li>***Texte en italique et en gras***</li>
+                <li>___Texte en italique et en gras___</li>
+            </ul>
         </article>
 
         <article class="Barré">
             <h3>Barré</h3>
             <p>
-                Pour barrer un texte avec Markdown, précédez-le de deux tildes et refermez la chaîne avec deux autres tildes.<br> <br>
-            
+                Pour barrer un texte avec Markdown, précédez-le de deux tildes et refermez la chaîne avec deux autres
+                tildes.<br> <br>
+
                 Exemple :
-                <ul>
-                    <li>~~Ce texte est barré.~~ mais pas celui-là.</li>
-                </ul>
+            </p>
+            <ul>
+                <li>~~Ce texte est barré.~~ mais pas celui-là.</li>
+            </ul>
+
+            <p>
                 <strong>REMARQUE !</strong><br>
-                Markdown ne permet pas de souligner du texte. En HTML, on utilise la balise &lt;u&gt; pour souligner. Cette forme de typographie est cependant progressivement délaissée. Les hyperliens du net étant généralement représentés sous forme de texte souligné, on a tendance à ne pas souligner d’autres segments pour éviter toute confusion.
+                Markdown ne permet pas de souligner du texte. En HTML, on utilise la balise &lt;u&gt; pour souligner.
+                Cette
+                forme de typographie est cependant progressivement délaissée. Les hyperliens du net étant généralement
+                représentés sous forme de texte souligné, on a tendance à ne pas souligner d’autres segments pour éviter
+                toute confusion.
             </p>
         </article>
 
         <article class="Titre">
             <h3>Les titres</h3>
             <p>
-                Par défaut, pour rédiger un titre avec Markdown, on utilise le dièse. On le sépare du texte avec une espace. Pour créer des sous-titres de hiérarchie inférieure, et donc rédigés en plus petits, il suffit d’insérer des dièses supplémentaires. Comme pour l’édition HTML, vous pourrez créer jusque 6 niveaux de sous-titres.<br> <br>
+                Par défaut, pour rédiger un titre avec Markdown, on utilise le dièse. On le sépare du texte avec une
+                espace. Pour créer des sous-titres de hiérarchie inférieure, et donc rédigés en plus petits, il suffit
+                d’insérer des dièses supplémentaires. Comme pour l’édition HTML, vous pourrez créer jusque 6 niveaux de
+                sous-titres.<br> <br>
                 Exemple :
-                <ul>
-                    <li># Titre 6</li>
-                    <li>## Titre 6</li>
-                    <li>### Titre 6</li>
-                    <li>#### Titre 6</li>
-                    <li>##### Titre 6</li>
-                    <li>###### Titre 6</li>
-                </ul>
-                <strong>NOTE !</strong>
-                Certains ajoutent des dièses derrière les titres. Cela peut améliorer la lisibilité, bien que ce soit absolument superflu sur le plan technique. Au moment de la conversion, ces dièses seront de toute manière ignorés. <br> <br>
-                Une autre option consiste à utiliser le signe égal et le tiret pour délimiter les titres. Il suffit dans ce cas de les insérer en dessous de la ligne du titre. Cette variante ne permet cependant de créer qu’un titre et un seul niveau de sous-titre. Un seul caractère par titre suffit, bien qu’on ait tendance à en aligner plusieurs les uns derrière les autres. La raison est purement esthétique. Plusieurs caractères successifs donnent l’impression d’un soulignement simple ou double. <br> <br>
-                Exemple :
-                <ol>
-                    <li>Titre 1</li>
-                    <li>=</li>
-                    <li>Titre 2</li>
-                    <li>-</li>
-                </ol>
             </p>
+            <ul>
+                <li># Titre 6</li>
+                <li>## Titre 6</li>
+                <li>### Titre 6</li>
+                <li>#### Titre 6</li>
+                <li>##### Titre 6</li>
+                <li>###### Titre 6</li>
+            </ul>
+            <p>
+                <strong>NOTE !</strong>
+                Certains ajoutent des dièses derrière les titres. Cela peut améliorer la lisibilité, bien que ce soit
+                absolument superflu sur le plan technique. Au moment de la conversion, ces dièses seront de toute
+                manière
+                ignorés. <br> <br>
+                Une autre option consiste à utiliser le signe égal et le tiret pour délimiter les titres. Il suffit dans
+                ce
+                cas de les insérer en dessous de la ligne du titre. Cette variante ne permet cependant de créer qu’un
+                titre
+                et un seul niveau de sous-titre. Un seul caractère par titre suffit, bien qu’on ait tendance à en
+                aligner
+                plusieurs les uns derrière les autres. La raison est purement esthétique. Plusieurs caractères
+                successifs
+                donnent l’impression d’un soulignement simple ou double. <br> <br>
+                Exemple :
+            </p>
+            <ol>
+                <li>Titre 1</li>
+                <li>=</li>
+                <li>Titre 2</li>
+                <li>-</li>
+            </ol>
         </article>
 
         <article class="Paragraphe">
             <h3>Paragraphe</h3>
             <p>
                 Le langage Markdown utilise des sauts de lignes pour créer des paragraphes séparés. <br>
-                Pour rédiger un nouveau paragraphe (balise), il suffit d’insérer tout simplement une ligne vierge. <br><br>
+                Pour rédiger un nouveau paragraphe (balise), il suffit d’insérer tout simplement une ligne vierge.
+                <br><br>
                 Attention cependant : <br> <br>
                 Markdown considère comme ligne vierge toute ligne vide sur le plan purement visuel. <br> <br>
-                Si cette ligne comprend des espaces invisibles, comme des tabulations ou des espaces, l’analyseur syntaxique les ignorera et interprétera toute la ligne comme étant vierge. <br>
-                Si l’on souhaite insérer un saut de ligne correspondant à la balise, il vous faudra insérer deux espaces à la fin d’une ligne.
+                Si cette ligne comprend des espaces invisibles, comme des tabulations ou des espaces, l’analyseur
+                syntaxique les ignorera et interprétera toute la ligne comme étant vierge. <br>
+                Si l’on souhaite insérer un saut de ligne correspondant à la balise, il vous faudra insérer deux espaces
+                à la fin d’une ligne.
             </p>
         </article>
 
         <article class="Citation">
             <h3>Les citations</h3>
             <p>
-                Pour transformer une zone de texte en citation, il est possible de créer un élément de type Blockquote avec Markdown. <br> 
-                Pour ce faire, vous utiliserez le signe supérieur à (>).<br> 
-                Vous pourrez soit précéder chaque ligne de ce signe, soit en insérer un au début du paragraphe et terminer le paragraphe à mettre en exergue par une ligne vierge. <br>
+                Pour transformer une zone de texte en citation, il est possible de créer un élément de type Blockquote
+                avec Markdown. <br>
+                Pour ce faire, vous utiliserez le signe supérieur à (>).<br>
+                Vous pourrez soit précéder chaque ligne de ce signe, soit en insérer un au début du paragraphe et
+                terminer le paragraphe à mettre en exergue par une ligne vierge. <br>
                 D’autres éléments de formatage sont possibles dans un blockquote. <br><br>
                 Exemple :
-                <ul>
-                    <li>
-                        >Ceci est une **zone en retrait**. <br>
-                        >La zone continue ici
-                    </li>
-                    <li>
-                        >Ceci est une autre **zone de retrait**. <br>
-                        Cette zone continue également dans la ligne suivante. <br>
-                        Cependant, cette ligne n’est plus en retrait
-                    </li>
-                </ul>
             </p>
+            <ul>
+                <li>
+                    >Ceci est une **zone en retrait**. <br>
+                    >La zone continue ici
+                </li>
+                <li>
+                    >Ceci est une autre **zone de retrait**. <br>
+                    Cette zone continue également dans la ligne suivante. <br>
+                    Cependant, cette ligne n’est plus en retrait
+                </li>
+            </ul>
         </article>
 
         <article class="Liste">
             <h3>Les listes</h3>
             <p>
-                Si vous souhaitez établir une liste simple avec Markdown, vous avez le choix entre le signe plus, le tiret ou un astérisque. <br>
+                Si vous souhaitez établir une liste simple avec Markdown, vous avez le choix entre le signe plus, le
+                tiret ou un astérisque. <br>
                 Ces trois options donnent le même rendu. <br> <br>
                 Exemple :
-                <ul class="Tiret">
-                    <li>Liste 1</li>
-                    <li>Liste 2</li>
-                    <li>Liste 3</li>
-                </ul>
-                Pour créer une liste numérotée, il vous suffira d’inscrire <strong>un chiffre suivi d’un point</strong>. <br><br>
+            </p>
+            <ul class="Tiret">
+                <li>Liste 1</li>
+                <li>Liste 2</li>
+                <li>Liste 3</li>
+            </ul>
+            <p>
+                Pour créer une liste numérotée, il vous suffira d’inscrire <strong>un chiffre suivi d’un point</strong>.
+                <br><br>
                 Exemple :
-                <ul class="Tiret2">
-                    <li>Liste 1</li>
-                    <li>Liste 2</li>
-                    <li>Liste 3</li>
-                </ul>
+            </p>
+            <ul class="Tiret2">
+                <li>Liste 1</li>
+                <li>Liste 2</li>
+                <li>Liste 3</li>
+            </ul>
+            <p>
                 CONSEIL ! <br> <br>
-                Le chiffre employé n’a aucune importance pour Markdown. Que vous écriviez trois fois le chiffre 1, ou que vous commenciez par le chiffre 3, le langage Markdown rédigera dans tous les cas une liste correctement numérotée. <br> <br>
-                Markdown permet aussi d’éditer des listes à cocher. Ces listes sont précédées d’une case à cocher pouvant être activée par clic. Ces cases peuvent d’ailleurs être cochées par défaut au moment de la création de la liste. Pour ce faire, vous devez utiliser les crochets et le X. <br><br>
+                Le chiffre employé n’a aucune importance pour Markdown. Que vous écriviez trois fois le chiffre 1, ou
+                que
+                vous commenciez par le chiffre 3, le langage Markdown rédigera dans tous les cas une liste correctement
+                numérotée. <br> <br>
+                Markdown permet aussi d’éditer des listes à cocher. Ces listes sont précédées d’une case à cocher
+                pouvant
+                être activée par clic. Ces cases peuvent d’ailleurs être cochées par défaut au moment de la création de
+                la
+                liste. Pour ce faire, vous devez utiliser les crochets et le X. <br><br>
                 Exemple :
-                <ul class="Tiret3">
-                    <li>A</li>
-                    <li class="Tiret3Bis">B</li>
-                    <li>C</li>
-                </ul>
+            </p>
+            <ul class="Tiret3">
+                <li>A</li>
+                <li class="Tiret3Bis">B</li>
+                <li>C</li>
+            </ul>
+            <p>
                 NOTE ! <br> <br>
-                Pour des cases à cocher vides, n’oubliez pas de laisser une espace entre les deux crochets. Sinon Markdown n’identifiera pas votre texte comme étant une liste.
+                Pour des cases à cocher vides, n’oubliez pas de laisser une espace entre les deux crochets. Sinon
+                Markdown
+                n’identifiera pas votre texte comme étant une liste.
             </p>
         </article>
 
         <article class="Code">
             <h3>Code</h3>
-            <p>Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen du caractère appelé le Backtick ou apostrophe inversée. <br> <br>
+            <p>Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen du caractère appelé le
+                Backtick ou apostrophe inversée. <br> <br>
                 Attention, à ne pas confondre avec les guillemets. <br> <br>
-                Le marquage est donc constitué d’une apostrophe inversée au début et à la fin du segment correspondant au code. <br>
-                C’est ainsi que vous pourrez incorporer directement le code source ou une commande logicielle dans le texte.</p> <br> <br>
-                Exemple : 
-                <ul>
-                    <li>C'est le ` code `</li>
-                </ul>
+                Le marquage est donc constitué d’une apostrophe inversée au début et à la fin du segment correspondant
+                au code. <br>
+                C’est ainsi que vous pourrez incorporer directement le code source ou une commande logicielle dans le
+                texte. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>C'est le ` code `</li>
+            </ul>
+            <p>
                 NOTE ! <br>
-                Attention cependant à ne pas écrire par mégarde un accent grave, par exemple : à. C’est ce qui risque d’arriver si vous insérez ce caractère devant une voyelle. Pour éviter ce problème, pensez à insérer une espace entre l’apostrophe inversée et la voyelle. <br> <br>
-                Si votre codage renferme déjà l’apostrophe inversée, vous devez précéder la zone de code de deux fois ce caractère. Dans ce cas, Markdown n’interprétera pas l’apostrophe inversée comme une balise. <br> <br>
-                Exemple : 
-                <ul>
-                    <li>`` C'est tout le ` code ` . ``</li>
-                </ul>
-                Pour identifier tout un bloc de texte comme du code source, vous pourrez utiliser soit la touche de <strong> tabulation ou quatre espaces consécutives </strong>, et ce pour chaque ligne concernée. <br>
+                Attention cependant à ne pas écrire par mégarde un accent grave, par exemple : à. C’est ce qui risque
+                d’arriver si vous insérez ce caractère devant une voyelle. Pour éviter ce problème, pensez à insérer une
+                espace entre l’apostrophe inversée et la voyelle. <br> <br>
+                Si votre codage renferme déjà l’apostrophe inversée, vous devez précéder la zone de code de deux fois ce
+                caractère. Dans ce cas, Markdown n’interprétera pas l’apostrophe inversée comme une balise. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>`` C'est tout le ` code ` . ``</li>
+            </ul>
+            <p>
+                Pour identifier tout un bloc de texte comme du code source, vous pourrez utiliser soit la touche de
+                <strong>
+                    tabulation ou quatre espaces consécutives </strong>, et ce pour chaque ligne concernée. <br>
                 Pour indenter davantage certaines lignes, il vous suffira d’insérer des tabulations ou des espaces. <br>
-                <ul>
-                    <li>
-                        Encore écrit ici en texte ordinaire <br>
-                        &#160;&#160;&#160;&#160;Ceci est la première ligne du bloc de code <br>
-                        &#160;&#160;&#160;&#160;La seconde ligne est encore plus en retrait <br>
-                        &#160;&#160;&#160;&#160;C’est une autre ligne du bloc de code <br>
-                        C’est ici que le texte ordinaire recommence
-                    </li>
-                </ul>
-                Si vous préférez utiliser des caractères pour introduire et refermer des blocs de codage, il est possible d’utiliser <strong>trois apostrophes inversées</strong> au début et à la fin du bloc. <br>
-                Plusieurs éditeurs Markdown offrent par ailleurs la possibilité d’opter automatiquement pour un balisage de couleur. <br>
-                Pour ce faire, il vous faut préciser, juste après les trois apostrophes d'introduction, le langage dans lequel vous avez édité le code source. <br> <br>
-                Exemple : 
-                <ul>
-                    <li>
-                        ```html <br> <br>
-                        &lt;html&gt; <br>
-                        &#160;&#160;&#160;&#160;&lt;head&gt; <br>
-                        &#160;&#160;&#160;&#160;&lt;/head&gt; <br>
-                        &lt;/html&gt; <br> <br>
-                        ```
-                    </li>
-                </ul>
-                
+            </p>
+            <ul>
+                <li>
+                    Encore écrit ici en texte ordinaire <br>
+                    &#160;&#160;&#160;&#160;Ceci est la première ligne du bloc de code <br>
+                    &#160;&#160;&#160;&#160;La seconde ligne est encore plus en retrait <br>
+                    &#160;&#160;&#160;&#160;C’est une autre ligne du bloc de code <br>
+                    C’est ici que le texte ordinaire recommence
+                </li>
+            </ul>
+            <p>
+                Si vous préférez utiliser des caractères pour introduire et refermer des blocs de codage, il est
+                possible
+                d’utiliser <strong>trois apostrophes inversées</strong> au début et à la fin du bloc. <br>
+                Plusieurs éditeurs Markdown offrent par ailleurs la possibilité d’opter automatiquement pour un balisage
+                de
+                couleur. <br>
+                Pour ce faire, il vous faut préciser, juste après les trois apostrophes d'introduction, le langage dans
+                lequel vous avez édité le code source. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>
+                    ```html <br> <br>
+                    &lt;html&gt; <br>
+                    &#160;&#160;&#160;&#160;&lt;head&gt; <br>
+                    &#160;&#160;&#160;&#160;&lt;/head&gt; <br>
+                    &lt;/html&gt; <br> <br>
+                    ```
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="IH">
+            <h3>Images et hyperliens</h3>
+            <p>
+                Markdown permet aussi d’insérer des images et des hyperliens dans votre texte. <br>
+                Cette insertion se fait en <strong>combinant des parenthèses et des crochets</strong>. <br>
+                Pour créer un lien, vous devrez écrire les mots ou les phrases visibles dans le texte entre crochets,
+                suivis directement de l’adresse URL entre parenthèses. <br>
+                Si vous souhaitez ajouter au lien un titre facultatif, visible par l’utilisateur au survol de la souris,
+                c’est tout à fait possible : ce texte devra être ajouté à l’adresse URL entre les parenthèses, mais sera
+                séparé d’une espace de l’URL, et inscrit entre guillemets doubles. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>Ici ce qui suit [Lien](https://example.com/ "titre de lien optionnel").</li>
+            </ul>
+            <p>
+                Si vous insérez une adresse URL ou une adresse électronique dans votre texte ordinaire, la plupart des
+                éditeurs Markdown créeront automatiquement un hyperlien accessible par clic. <br>
+                Pour forcer cette fonction, utilisez les signes inférieur et supérieur à. <br>
+                Si, en revanche, vous souhaitez empêcher les éditeurs d’activer cette fonction, marquez l’URL comme
+                code, et
+                utilisez à nouveau les apostrophes inversées. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>&lt;https://example.com&gt;</li>
+                <li>`https://example.com`</li>
+            </ul>
+            <p>
+                La syntaxe permettant d’insérer des images est semblable à celle des liens. <br>
+                On commence cependant par insérer un point d’exclamation. <br>
+                Suivent ensuite les crochets entre lesquels on insère le texte alternatif de l’image, puis l’URL de
+                l’image
+                entre parenthèses. <br>
+                L’image sera dans ce cas directement affichée dans le texte. <br> <br>
+
+                Exemple :
+            </p>
+            <ul>
+                <li>![Ceci est un exemple d’image](https://example.com/bild.jpg)</li>
+            </ul>
+            <p>
+                <strong>CONSEIL !</strong> <br>
+                Vous pouvez bien sûr créer des liens vers des pages HTML ou des images se trouvant sur votre propre
+                serveur.
+                <br>
+                Si le document concerné se trouve sur le même serveur, vous pouvez vous contenter de liens relatifs.
+                <br>
+                <br>
+
+                Vous pouvez aussi combiner des images et des hyperliens. <br>
+                Si vous souhaitez insérer un lien cliquable derrière l’image, vous devez <strong>combiner les deux
+                    fonctions</strong>. <br>
+                L’image devient dans ce cas le texte d’ancrage et s’affiche donc entre les crochets. <br><br>
+                Exemple :
+            </p>
+            <ul>
+                <li>[![Ceci est un exemple d’image](https://example.com/bild.jpg)](https://example.com)</li>
+            </ul>
+
+        </article>
+
+        <article class="Tableau">
+            <h3>Les tableaux</h3>
+            <p>
+                Les barres <strong>verticales</strong> (|) permettent d’éditer des tableaux avec Markdown. <br>
+                Chaque cellule du tableau est séparée d’une barre verticale. <br>
+                Pour créer des lignes de titre qui se distinguent du reste du tableau, vous devrez souligner les
+                cellules concernées avec les tirets du 6. <br> <br>
+                Exemple :
+            </p>
+            <ul>
+                <li>
+                    |cellule 1|cellule 2|<br>
+                    |--------|--------|<br>
+                    | A | B |<br>
+                    | C | D |
+                </li>
+            </ul>
+            <p>
+                Il n’est pas nécessaire d’aligner les barres verticales les unes en dessous des autres. Si elles sont
+                alignées, la lisibilité du tableau est cependant meilleure dans la version brute du document Markdown.
+                La même chose s’applique aux barres verticales latérales. Elles n’ont aucune utilité pour la compilation
+                du document.
+            </p>
+        </article>
+
+        <article class="NBP">
+            <h3>Les notes de bas de page</h3>
+            <p>
+                Markdown vous permet aussi d’éditer des notes de bas de page. <br>
+                Ajoutez tout simplement dans votre texte
+                un numéro d’annotation, et reprenez ce numéro en bas de votre page dans une note de bas de page. <br>
+                Markdown créera alors automatiquement une ligne. <br>
+                Le chiffre correspondant à l’annotation est automatiquement formaté en lien, ce qui vous permet
+                d’atteindre la note de bas de page par un simple clic. <br>
+                Pour pouvoir bénéficier de cet automatisme, commencez par inscrire le numéro de l’annotation derrière le
+                mot souhaité : commencez par écrire un accent circonflexe entre les crochets, suivi du
+                numéro. <br> <br>
+
+                Le choix du chiffre (ou autres valeurs) n’a aucune espèce d’importance. <br>
+                Comme pour la création de liste, Markdown se charge de la numérotation. <br>
+                Ce qui est important, c’est de créer ensuite un renvoi vers la désignation que vous aurez sélectionnée.
+                <br>
+                Pour ce faire, vous devez reprendre le même chiffre dans une nouvelle ligne, inséré à nouveau entre
+                crochets avec un accent circonflexe, vous ajoutez le signe des
+                deux points, et vous rédigez le texte de l’annotation. <br>
+                Ce texte pourra d’ailleurs faire l’objet d’un formatage de votre choix, et s’étendre sur plusieurs
+                lignes.
+            </p>
+            <ul>
+                <li>Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de page [^2]</li>
+                <li>[^1]: Vous trouverez ici le texte de la note de bas de page.</li>
+                <li>[^2]: **Note de page de page** peut aussi être *formatée*.</li>
+                <li>Et celles-ci comprennent même plusieurs lignes</li>
+            </ul>
+            <p>
+                CONSEIL ! <br> <br>
+                L’endroit où vous l’implantez dans le texte n’a pas d’importance. <br>
+                Markdown le placera dans tous les cas à la fin du document. <br>
+                Pour clore l’annotation et poursuivre la rédaction du corps de texte, ajoutez tout simplement une ligne
+                vierge.
+            </p>
+        </article>
+
+        <article class="Signe">
+            <h3>& et &lt; &gt;</h3>
+            <p>
+                Markdown étant très proche de HTML, il convient de regarder de plus près à l’usage du « et commercial »
+                ainsi que les signes supérieur et inférieur. <br>
+                Ces caractères sont employés en HTML pour ouvrir et fermer des balises (&lt; &gt;) ou pour travailler
+                avec des entités (&). <br>
+                Si l’on veut utiliser ces caractères dans leur signification d’origine, il faudra les masquer en HTML :
+                &, &lt; et &gt;. <br>
+                Avec Markdown, il n’y a normalement aucune raison de ne pas utiliser ces caractères tels quels. <br>
+                Mais comme il est possible pour les utilisateurs de combiner Markdown et HTML, la situation est un peu
+                complexe. <br>
+                Pour vous éviter de devoir faire face à de tels problèmes, l’analyseur syntaxique sait faire la
+                différence entre les moments où vous souhaitez utiliser ces caractères et les situations de code HTML.
+            </p>
+            <ul>
+                <li>A & B</li>
+                <li>&alpha;</li>
+                <li>1 &lt; 2</li>
+                <li>&lt;p&gt;</li>
+            </ul>
+        </article>
+
+        <article class="BOI">
+            <h3>Masquer les barres obliques inversées</h3>
+            <p>
+                En plus des caractères spéciaux imposés par HTML, Markdown utilise quelques autres caractères pour le formatage. <br>
+                Si l’on insère ces caractères, l’analyseur syntaxique en tiendra compte au moment de la conversion. <br> <br>
+                Voici les caractères concernés :
+            </p>
+            <ul>
+                <li><strong>Astérisque : *</strong></li>
+                <li><strong>Trait d'Union : -</strong></li>
+                <li><strong>Souligné : _</strong></li>
+                <li><strong>Parenthèses : ()</strong></li>
+                <li><strong>Crochets : []</strong></li>
+                <li><strong>Accolades : {}</strong></li>
+                <li><strong>Point : .</strong></li>
+                <li><strong>Point d’exclamation : !</strong></li>
+                <li><strong>Dièse : #</strong></li>
+                <li><strong>Accent grave : `</strong></li>
+                <li><strong>Barre oblique inversée : \</strong></li>
+            </ul>
+            <p>
+                Si l’on veut utiliser ces caractères dans leur sens premier, il suffit de les précéder d’une barre oblique inversée. <br> <br>
+                IMPORTANT : <br> 
+                Cette barre oblique inversée doit impérativement précéder chacun de ces caractères. <br> <br>
+                Cela concerne donc autant une parenthèse ouvrante qu’une parenthèse fermante.
+            </p>
         </article>
     </section>
 </body>
+
 </html>
